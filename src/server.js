@@ -2,6 +2,7 @@ require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
 const produtoRoutes = require("./routes/produtoRoutes");
+const categoriaRoutes = require("./routes/categoriaRoutes");
 
 const app = express();
 
@@ -13,6 +14,7 @@ app.get("/", (req, res) => {
 });
 
 app.use("/produtos", produtoRoutes);
+app.use("/categorias", categoriaRoutes);
 
 app.listen(3000, () => {
   console.log("Servidor rodando na porta 3000");
