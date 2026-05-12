@@ -141,6 +141,7 @@ curl -X PUT http://localhost:3000/categorias/1 \
 }
 ```
 
+
 **Response (200 OK):**
 ```json
 {

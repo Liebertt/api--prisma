@@ -61,4 +61,5 @@ exports.deletar = async (req, res) => {
       erro: error.message || "Erro ao deletar produto"
     });
   }
+  
 };
