@@ -345,7 +345,10 @@ Você pode testar os endpoints usando:
 - **cURL** (linha de comando)
 - **Postman** (ferramenta gráfica)
 - **Insomnia** (ferramenta gráfica)
+- **Apidog** (ferramenta gráfica online) usei esta pela facilidade de ser online
 - **Thunder Client** (extensão do VS Code)
+
+  Observação: *na documentação usei como referência o Insomnia, por ser uma ferramenta de comum uso.*
 
 Consulte o arquivo [API_TEST_GUIDE.md](./API_TEST_GUIDE.md) para exemplos detalhados de requisições.
 
